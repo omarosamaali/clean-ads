@@ -60,10 +60,9 @@ export const Register = (props) => {
           id="confirm-password"
           name="confirm-password"
         />
-        <button type="submit">Register</button>
-      </form>
-      
-         <label>
+        <label>User Type:</label>
+        <div className="radio-user">
+         <label >
                     <input
                         type="radio"
                         value="publisher"
@@ -81,6 +80,9 @@ export const Register = (props) => {
                     />
                     Advertiser
                 </label>
+                </div>
+        <button type="submit">Register</button>
+      </form>
                 <button className="link-btn" onClick={() => props.onFormSwitch("login")}>
         Already have an account? Login here.
       </button>
