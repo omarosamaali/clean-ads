@@ -41,11 +41,16 @@ button {
   padding: 20px;
   border-radius: 10px;
   cursor: pointer;
-  color: #7439db;
+  color: black;
 }
 
 .link-btn {
   background: none;
   color: white;
   text-decoration: underline;
+}
+.radio-user{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
 }
